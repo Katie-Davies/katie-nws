@@ -1,0 +1,113 @@
+/* ------ Tag SELECTORS ----- */
+body {
+    text-align: center;
+    margin: 0;
+}
+/* ------ see the h1 is using a % font size to ensure it scales with end user browser size requirements. ----- */
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Yellowtail', cursive;
+    font-size: 562%;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+hr {
+    border-style: dotted;
+    border-color: #363636;
+    border-width: 0 0 5px;
+    width: 5%;
+  }
+  ul {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+      float: left;
+  }
+/* ------ CLASS SELECTORS ----- */
+
+.topContainer {
+    background-color: #162447;
+    color: honeydew;
+    position: relative;
+    padding-top: 25px;
+    font-family: 'Overpass Mono', monospace;
+
+}
+.middle-container-a {
+    background-color: #40a8c4;
+padding-top: 20px;
+}
+
+.middle-container-c {
+    background-color: #40a8c4;
+padding-top: 10px;
+}
+.middle-container-b {
+    background-color: #d6e0f0;
+padding-top: 10px;
+}
+.profile{
+    background-color: #162447;
+    color: honeydew;
+    padding-top: 25px;
+    padding-bottom: 100px;
+    padding-left: 450px;
+    padding-right: 450px;
+}
+.bottom-container {
+    background-color: #ffc93c;
+    color: honeydew;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.topCloud {
+    position: relative;
+    left: 300px;
+    top: 50px;
+}
+.bottomCloud {
+    position: absolute;
+}
+.skill-row{
+    width: 50%;
+    margin: 325px auto 325px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skill-row-alt{
+    width: 50%;
+    margin: 325px auto 325px auto;
+    line-height: 2;
+}
+.right-img {
+    float: right;
+    margin-left: 30px;
+}
+.left-img {
+    float: left;
+    margin-right: 30px;
+}
+.center-img {
+    float: center;
+    
+}
+.skills-h2{
+    font-size: 18px;
+}
+.h-link-contact {
+    text-decoration: unset;
+}
+.social-img{
+    margin: 10px;
+}

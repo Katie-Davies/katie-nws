@@ -1,0 +1,83 @@
+/* ------ Tag SELECTORS ----- */
+body {
+    text-align: center;
+    margin: 0;
+}
+/* ------ see the h1 is using a % font size to ensure it scales with end user browser size requirements. ----- */
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Yellowtail', cursive;
+    font-size: 562%;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+
+}
+
+ul.a {
+    font-family:'Montserrat', sans-serif;
+    }
+/* ------ CLASS SELECTORS ----- */
+.topContainer {
+    background-color: #162447;
+    color: honeydew;
+    position: relative;
+    padding-top: 50px;
+    font-family: 'Overpass Mono', monospace;
+
+}
+.middleContainer {
+    background-color: #1f4068;
+    height: 200px;
+    width: 200px;
+
+}
+.bottomContainer {
+    background-color: #1b1b2f;
+    height: 200px;
+    width: 200px;
+}
+.topCloud {
+    position: relative;
+    left: 300px;
+    top: 50px;
+}
+.bottomCloud {
+    position: absolute;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+/* ------ Only use float when really needed. Not sparingly . Watch video 60 for more info. ----- */
+
+.mx-img {
+    float: right;
+    margin-left: 30px;
+}
+.skill-img {
+    float: left;
+    margin-right: 30px;
+}
+.code-skill-para{
+    clear: left;
+}
+.mx-skill-para{
+    clear: right;
+}
+.mx-skill-h3{
+    float: right;
+}
