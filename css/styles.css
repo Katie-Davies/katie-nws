@@ -80,10 +80,12 @@ padding-top: 10px;
     position: absolute;
 }
 .skill-row{
-    width: 50%;
+    width: 75%;
     margin: 325px auto 325px auto;
     text-align: left;
     line-height: 2;
+    
+    
 }
 .skill-row-alt{
     width: 50%;
@@ -110,4 +112,8 @@ padding-top: 10px;
 }
 .social-img{
     margin: 10px;
+}
+.imgalign-center{
+    display: block;
+    margin: 0px auto;
 }
